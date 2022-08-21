@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Contato</h2>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required/>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Digite seu E-mail" autocomplete="off" required/>
+        <label>Mensagem</label>
+        <textarea name="message" rows="8" cols="40" placeholder="Digite sua Mensagem" required ></textarea>
+        <button type="submit">Enviar</button>
+        
+       <input type="hidden" name="accessKey" value="42c61faa-b1f0-46bd-80c9-bba3562b134c"> 
+       <input type="hidden" name="redirectTo" value="http://localhost:8158/obrigado.html" > 
+      </form>
+    </section>
+    
+    
+  </body>
+</html>
